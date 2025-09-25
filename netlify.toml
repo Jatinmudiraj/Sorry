@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# optional: local dev via `netlify dev`
+[dev]
+  command = "npm run dev"
+  port = 8888
+
+# ensure Next.js features (routing, SSR/ISR, images) work on Netlify
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

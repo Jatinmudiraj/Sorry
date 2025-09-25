@@ -279,7 +279,7 @@ export default function Page() {
           <div className="mt-6 grid grid-cols-1 gap-3">
             <button
               onClick={onPrimary}
-              className={`group relative h-12 rounded-[14px] font-semibold text-white shadow-[0_12px_24px_rgba(0,0,0,0.2)] active:translate-y-[1px] transition
+              className={`group relative h-20 rounded-[14px] font-semibold text-white shadow-[0_12px_24px_rgba(0,0,0,0.2)] active:translate-y-[1px] transition
                           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ring-offset-[#fbf4e7]
                           bg-[linear-gradient(180deg,rgba(255,255,255,0.25),rgba(255,255,255,0)_32%),linear-gradient(90deg,#d26a6a,#e08b78)]
                           hover:brightness-[1.05]`}
@@ -292,7 +292,7 @@ export default function Page() {
 
             <button
               onClick={onSecondary}
-              className={`h-12 rounded-[14px] font-semibold text-[#6f5434] bg-[#fff8ec]/90 border border-[#d9c6a8]
+              className={`h-20 rounded-[14px] font-semibold text-[#6f5434] bg-[#fff8ec]/90 border border-[#d9c6a8]
                           hover:bg-[#fff2de] active:translate-y-[1px] transition
                           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#e6d5b7]`}
             >
@@ -300,7 +300,7 @@ export default function Page() {
             </button>
 
             {mode !== "idle" && (
-              <button onClick={resetAll} className="h-10 text-xs underline text-[#9b8466]">Start over</button>
+              <button onClick={resetAll} className="h-16 text-xs underline text-[#9b8466]">Start over</button>
             )}
           </div>
 
